@@ -1,0 +1,3 @@
+cat>script5.sh
+(sort -n $1 $2|ng)>output.txt
+
