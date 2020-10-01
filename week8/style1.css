@@ -1,0 +1,13 @@
+			img.poster{
+				width:200px;
+				height:300px;
+				align-self: right;
+				vertical-align: middle;
+				float:right;
+			}
+			img.wide{
+				width:500px;
+				height:300px;
+				align-self: middle;
+				vertical-align: middle;
+			}

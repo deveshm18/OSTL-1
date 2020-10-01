@@ -1,0 +1,38 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\begin{landscape}
+\begin{center}
+\huge\bfseries{Time Table} 
+\end{center}
+
+\begin{table}[h]
+\centering
+\scalebox{1.5}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{abc}
+  & 8:00 & 9:00 & 10:00 & 10:30 & 11:30 & 12:30 & 1:00 & 2:00 & 3:00 & 3:30 & 4:30 \\
+  & 9:00 & 10:00 & 10:30 & 11:30 & 12:30 & 1:00 & 2:00 & 3:00 & 3:30 & 4:30 &5:30 \\
+  \hline  
+  Mon& \multicolumn{4}{c|}{DSDL} & &\multirow{6}{*}{\rotatebox{90}{BREAK}} & COA & MATH & & DS & OOP \\ \cline{1-6} \cline{8-12}
+  Tue&  OST & DSD & & COA & & & &\multicolumn{4}{c|}{DSL} \\ \cline{1-6} \cline{8-12}
+  Wed& & & & & & & COA & DSD & & DS & OOP \\ \cline{1-6} \cline{8-12}
+  Thu&  & MATH & & DS & OOP & & &\multicolumn{4}{c|}{OOPL} \\ \cline{1-6} \cline{8-12}
+  Fri& & & & & & &  & DSD & & COA & MATH \\ \cline{1-6} \cline{8-12}
+  Sat&  & DS & & DSD & OOP & & &\multicolumn{4}{c|}{OSTL} \\ \hline
+  
+\end{tabular}
+}
+\end{table}
+\begin{center}
+\large{Section B Revised Time Table} 
+\end{center}
+\end{landscape}
+\end{document}
