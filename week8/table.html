@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<style type="text/css">
+		table,th,td{
+			border:1px solid black;
+			border-collapse: collapse;
+			padding: 10px;
+			border-spacing: 3px;
+		}
+		th{
+			background-color: #994a00;
+			text-align: center;
+		}
+		td{
+			text-align: center;
+		}
+		tr:nth-child(even) {
+  		background-color: #ff7b00;
+		}
+		tr:nth-child(odd) {
+  		background-color: #ffbd80;
+		}
+	</style>
+</head>
+<body style="background-color: #fff2e6;overflow-y: scroll;">
+	<h1>Fruit Sales</h1>
+	<hr>
+	<center>
+<table width="1000px" height="500px">
+	<caption style="font-size: 30px;">Sales</caption>
+	<tr>
+		<th>Fruit</th>
+		<th>Produced</th>
+		<th>Market</th>
+	</tr>
+	<tr>
+		<td>Mango</td>
+		<td colspan="2">India</td>
+	</tr>
+	<tr>
+		<td>Kiwi</td>
+		<td>New Zealand</td>
+		<td>India</td>
+	</tr>
+	<tr>
+		<td>Apple</td>
+		<td>China</td>
+		<td>Saudi Arabia</td>
+	</tr>
+	<tr>
+		<td rowspan="4">Banana</td>
+		<td rowspan="2">Phillipines</td>
+		<td >Bahrain</td>
+	</tr>
+	<tr>
+		<td>Riyadh</td>
+	</tr>
+	<tr>
+		<td rowspan="2">India</td>
+		<td>Riyadh</td>
+	</tr>
+	<tr>
+		<td>London</td>
+	</tr>
+</table>
+</center>
+</body>
+</html>

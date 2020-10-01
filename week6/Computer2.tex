@@ -1,0 +1,133 @@
+\documentclass{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usetheme{AnnArbor}
+\usefonttheme{serif}
+\title{Software}
+\subtitle{Programming}
+\author{Leander \inst{1} \and James \inst{2} \and Harry \inst{3}}
+\institute{ \inst{1} Manipal Institue of Technology \and \inst{2} UCLA \and \inst{3} Harvard}
+
+\begin{document}
+\frame{\titlepage}
+\begin{frame}
+   	\frametitle{TABLE OF CONTENTS}
+   	\tableofcontents
+\end{frame}
+\begin{frame}
+\frametitle{Languages}
+  \section{High Level}
+  \subsection{C}
+  \subsection{Java}
+  \section{Machine Level}
+\end{frame}
+\begin{frame}
+  \frametitle{High Level}
+  \bfseries{C}\\
+  This is one the oldest languages still being used today.\\
+  \vspace{1em}
+  \bfseries{Java}\\
+  This was made to improve flexibility and to use programs for consumer products.
+\end{frame}
+\begin{frame}
+\frametitle{Machine Level}
+This consists of 0s and 1s which is understood by the computer.
+\end{frame}
+\begin{frame}
+Example of frame without title.
+\end{frame}
+\begin{frame}
+\frametitle{Data Structures}
+\begin{block}{Tree}
+Tree cannot have cycle.
+\end{block}
+\begin{exampleblock}{Graph}
+Graph can Have Cycles.
+\end{exampleblock}
+\begin{alertblock}{Conclusion}
+Simmons Hall $\not=$ Simmons Dormitory.
+\end{alertblock}
+\end{frame}
+\begin{frame}
+\frametitle{List}
+\begin{itemize}
+\pause
+\item Point A
+\pause
+\item Point B
+\begin{itemize}
+\pause
+\item part 1
+\pause
+\item part 2
+\end{itemize}
+\pause
+\item Point C
+\pause
+\item Point D
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{More Lists}
+\begin{enumerate}[(I)]
+\item<1-> Point A
+\item<2-> Point B
+\begin{itemize}
+\item<3-> part 1
+\item<4-> part 2
+\end{itemize}
+\item<5-> Point C
+\item<6-> Point D
+\end{enumerate}
+\end{frame}
+\begin{frame}
+\frametitle{Overlays}
+\onslide<1->{Apple}
+ 
+\onslide<2->{Dell}
+ 
+\onslide<3->{HP}
+\end{frame}
+\begin{frame}
+\frametitle{Onslide}
+\onslide<1->{First sentence in the frame}
+ 
+\onslide<2->{Second sentence in the frame.}
+ 
+\onslide<3->{Third sentence in the frame}
+
+\onslide<4->{End of overlay}
+\end{frame}
+\begin{frame}
+\frametitle{Only}
+\only<1>{First sentence in the frame}
+ 
+\only<2>{Second sentence in the frame.}
+ 
+\only<3>{Third sentence in the frame}
+
+\only<4>{End of overlay}
+\end{frame}
+\begin{frame}
+\frametitle{visible}
+\visible<1>{First sentence in the frame}
+ 
+\visible<2>{Second sentence in the frame.}
+ 
+\visible<3>{Third sentence in the frame}
+
+\visible<4>{End of overlay}
+\end{frame}
+\begin{frame}
+\frametitle{Uncover}
+\uncover<1>{First sentence in the frame}
+ 
+\uncover<2>{Second sentence in the frame.}
+ 
+\uncover<3>{Third sentence in the frame}
+
+\uncover<4>{End of overlay}
+\end{frame}
+\end{document}

@@ -1,0 +1,72 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{natbib}
+\usepackage{tabularx}
+\usepackage{lscape}
+\title{LATEX PRACTICE}
+\author{Leander Melroy Maben}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\begin{abstract}
+The aim of this report is to try out different LATEX features.
+\end{abstract}
+
+\chapter{Solid Geometry}
+\section{Cuboid}
+\subsection{General}
+
+If \emph{l} is the length of a cuboid.
+If \emph{b} is the breadth of a cuboid.
+If \emph{h} is the height of a cuboid.
+
+\begin{itemize}
+
+\item Volume:
+\begin{equation}
+\label{cbd v}
+A=lbh
+\end{equation}
+\item Lateral Surface Area:
+\begin{equation}
+\label{cbd lsa}
+LSA=2h(l+b)
+\end{equation}
+\item Area:
+\begin{equation}
+\label{cbd tsa}
+TSA=2(lb+bh+lh)
+\end{equation}
+\end{itemize}
+\subsection{Cube: A special case}
+A cube is a cuboid which has all three dimensions equal:
+\begin{itemize}
+\item Volume:
+from eq\ref{cbd v}
+\begin{equation}
+\label{cb v}
+Volume=a^3 \forall a>0
+\end{equation}
+\item Lateral Surface Area:
+from eq\ref{cbd lsa}
+\begin{equation}
+\label{cb lsa}
+LSA=4a^2
+\end{equation}
+\item Area:
+from eq\ref{cbd tsa}
+\begin{equation}
+\label{cb tsa}
+TSA=6a^2
+\end{equation}
+\end{itemize}
+\nocite{7338643}
+\bibliography{lat2}
+\bibliographystyle{IEEEtr}
+\end{document}

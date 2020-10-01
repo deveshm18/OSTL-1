@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body style="background-color:powderblue;">
+<form>
+	<h1>Vehicle Dealership</h1>
+	<hr>
+	<fieldset>
+		<legend>Personal Info</legend>
+		First Name:<br>
+		<input type="text" name="firstname" value="Harry"><br>
+		Last Name:<br>
+		<input type="text" name="lastname" value="Potter"><br>
+		Password:<br>
+		<input type="Password" name="pass"><br>
+	</fieldset>
+	<fieldset>
+		<legend>Vehicle Details</legend>
+		Type:<br>
+		<input type="radio" name="vehicle" value="2 wheeler">2 wheeler<br>
+		<input type="radio" name="vehicle" value="4 wheeler">4 wheeler<br>
+		Brand:<br>
+		<select name="brand">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Ferari">Ferari</option>
+			<option value="Royce">Royce</option>
+		</select>
+		<br>
+		I have owned this brand before:<br>
+ 	 	<input type="checkbox" name="car" value="toyota"> Toyota<br>
+ 	 	<input type="checkbox" name="car" value="honda"> Honda<br>
+ 	 	<input type="checkbox" name="car" value="renault"> Renault<br>
+ 	 	 <textarea name="comments" rows="10" cols="80">
+		 Prefer petrol car.
+		</textarea> 
+	</fieldset>
+	<input type="submit" value="Submit">
+  		<input type="reset">
+</form>
+</body>
+</html>
